@@ -1,0 +1,109 @@
+.nav-min-height {
+  min-height: 50px;
+}
+
+nav p,
+.small-gray-box p,
+.kelas-box-white p {
+  margin: 0;
+}
+
+.p-4rem-12rem {
+  padding: 4rem 12rem;
+}
+
+.border-top-blue {
+  border-top: 5px solid lightblue;
+}
+
+.small-gray-box {
+  width: 120px;
+  height: 120px;
+  border: 5px solid rgba(128, 128, 128, 0.5);
+  border-radius: 20px;
+}
+
+.small-gray-line {
+  width: 40px;
+  height: 5px;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.fs-65px {
+  font-size: 65px;
+}
+
+.mt--20px {
+  margin-top: -20px;
+}
+
+.shadow-right-bottom {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.gabung{
+    height: 75px;
+    width: 300px;
+}
+
+.gray-line{
+    height: 5px;
+    width: 65%;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.kelas-box {
+  width: 30%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.kelas-box-white {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lihat {
+  width: 70%;
+  height: 35%;
+}
+
+.testimoni-box{
+  background-color: gray;
+  width: 400px;
+  height: 400px;
+  padding: 0;
+}
+
+input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: white;
+}
+
+.chat {
+  width: 27%;
+  height: 17%;
+  margin-bottom: 1rem;
+}
+
+.another {
+  width: 27%;
+  height: 17%;
+}
